@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.prolificcoder.topshows"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+       "package": "com.prolificcoder.topshows"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
   }
 }

@@ -1,0 +1,7 @@
+appId: host.exp.Exponent
+---
+- launchApp
+- tapOn: "TopShows"
+- tapOn: "Open Webview"
+- tapOn: "Share"
+- tapOn: "reading list"
