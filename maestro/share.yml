@@ -1,7 +1,9 @@
 appId: host.exp.Exponent
 ---
 - launchApp
-- tapOn: "TopShows"
-- tapOn: "Open Webview"
-- tapOn: "Share"
-- tapOn: "reading list"
+- tapOn: "TopShows" #Expo shell app
+- tapOn: "Open Webview" #React native app
+- tapOn: "More information..." # Webview
+- tapOn: "Share" #Native
+- tapOn: "reading list" #System share button
+- tapOn: "Add" #System dialog
